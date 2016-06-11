@@ -104,4 +104,8 @@ class KataRomanNumeralsTests: XCTestCase {
 	func testFourHundredsAndEightyThree() {
 		XCTAssert(483.roman == "CDLXXXIII")
 	}
+	
+	func testOneThousandThreeHundred() {
+		XCTAssert(1300.roman == "MCCC")
+	}
 }
