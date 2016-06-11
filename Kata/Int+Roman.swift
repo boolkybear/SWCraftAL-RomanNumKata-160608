@@ -9,7 +9,7 @@
 import Foundation
 
 func getIndex(value: Int) -> Int? {
-	let specialValues = [100, 90, 50, 10, 5]
+	let specialValues = [100, 90, 50, 40, 10, 5]
 	
 	for valor in specialValues {
 		if value > valor {
@@ -23,7 +23,7 @@ func getIndex(value: Int) -> Int? {
 func fromDictionary(value: Int) -> String {
 	var total: String = ""
 	
-	let dictionary: [Int: String] = [1: "I", 4: "IV", 5: "V", 9: "IX", 10: "X", 50: "L", 90: "XC", 100: "C"]
+	let dictionary: [Int: String] = [1: "I", 4: "IV", 5: "V", 9: "IX", 10: "X", 40: "XL", 50: "L", 90: "XC", 100: "C"]
 	
 	if let romanValue = dictionary[value] {
 		return romanValue
