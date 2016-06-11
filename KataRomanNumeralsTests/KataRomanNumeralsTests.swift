@@ -108,4 +108,8 @@ class KataRomanNumeralsTests: XCTestCase {
 	func testOneThousandThreeHundred() {
 		XCTAssert(1300.roman == "MCCC")
 	}
+	
+	func testOneThousandNineHundredAndSeventySix() {
+		XCTAssert(1976.roman == "MCMLXXVI")
+	}
 }
