@@ -14,6 +14,7 @@
 		A7B6AE4D1D088ABA003949AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B6AE4B1D088ABA003949AC /* LaunchScreen.storyboard */; };
 		A7B6AE581D088ABA003949AC /* KataRomanNumeralsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6AE571D088ABA003949AC /* KataRomanNumeralsTests.swift */; };
 		A7B6AE631D088ABB003949AC /* KataRomanNumeralsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6AE621D088ABB003949AC /* KataRomanNumeralsUITests.swift */; };
+		A7B6AE721D088C44003949AC /* Int+Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6AE711D088C44003949AC /* Int+Roman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A7B6AE5E1D088ABA003949AC /* KataRomanNumeralsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataRomanNumeralsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B6AE621D088ABB003949AC /* KataRomanNumeralsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataRomanNumeralsUITests.swift; sourceTree = "<group>"; };
 		A7B6AE641D088ABB003949AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B6AE711D088C44003949AC /* Int+Roman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Roman.swift"; path = "Kata/Int+Roman.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				A7B6AE411D088ABA003949AC /* KataRomanNumerals */,
+				A7B6AE701D088C01003949AC /* Kata */,
 				A7B6AE561D088ABA003949AC /* KataRomanNumeralsTests */,
 				A7B6AE611D088ABB003949AC /* KataRomanNumeralsUITests */,
 				A7B6AE401D088ABA003949AC /* Products */,
@@ -123,6 +126,14 @@
 				A7B6AE641D088ABB003949AC /* Info.plist */,
 			);
 			path = KataRomanNumeralsUITests;
+			sourceTree = "<group>";
+		};
+		A7B6AE701D088C01003949AC /* Kata */ = {
+			isa = PBXGroup;
+			children = (
+				A7B6AE711D088C44003949AC /* Int+Roman.swift */,
+			);
+			name = Kata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				A7B6AE451D088ABA003949AC /* ViewController.swift in Sources */,
 				A7B6AE431D088ABA003949AC /* AppDelegate.swift in Sources */,
+				A7B6AE721D088C44003949AC /* Int+Roman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
