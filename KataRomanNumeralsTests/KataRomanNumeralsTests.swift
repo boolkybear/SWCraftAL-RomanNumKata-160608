@@ -96,4 +96,8 @@ class KataRomanNumeralsTests: XCTestCase {
 	func testFortyTwo() {
 		XCTAssert(42.roman == "XLII")
 	}
+	
+	func testFiveHundrednsNine() {
+		XCTAssert(509.roman == "DIX")
+	}
 }
